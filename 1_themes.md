@@ -11,8 +11,7 @@ theme_default <- theme_pubr()+theme(legend.position = 'none',
 theme_with_box <- theme_pubr()+theme(legend.position = "none",
         axis.line = element_line(size = 0),
         panel.border = element_rect(linewidth = 1,fill=NA,color = 'Black'),
-        plot.title = element_text(hjust = 0.5))+
-          scale_x_discrete(labels= c('Male (n = 10)', 'Female (n = 13)'))
+        plot.title = element_text(hjust = 0.5))
     
 theme_umap <- theme(axis.line = element_blank(),
                         axis.ticks = element_blank(),
