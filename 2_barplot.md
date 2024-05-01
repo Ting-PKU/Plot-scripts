@@ -26,4 +26,3 @@ ggplot(df2, aes(x=Group, y=mean, fill=Group)) +
                                "#f7d5d5", "#f7d5d5", "#f7d5d5"))+
   theme_default+theme(axis.text.x = element_text(colour="black",size=14, angle = 30, vjust = 0.6))
 ```
-![image](https://github.com/Ting-PKU/Plot-scripts/assets/70944124/93a56adf-5fb8-496f-af82-dcc8d89010ff)
